@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# Capstone Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Game Idea Manager
 
-## Available Scripts
+- **Project By:** Michael Delvecchio
+- [**LINK TO DEPLOYED SITE**]
+- [**LINK TO BACKEND**](https://github.com/Dvec319/capstone-backend)
+- **List of Technologies used:** React, React Router Dom
 
-In the project directory, you can run:
+## Description
 
-### `npm start`
+Welcome to Game Idea Manager! This is going to be my capstone project where a create a website where users can come and store their game ideas! I created this project because I have a passion for video games, whether that be playing or watching them. I have a handful of friends who are in game development as well and thought this would be a neat idea for them. They could come here and write down their ideas and keep the documentation for their engine choice on hand. For the off chance that they forget what engine they wanted to use, or something similar.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## UI Mockup
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- ![Landing](https://i.imgur.com/sjuv6ZF.png)
+- ![Signup](https://i.imgur.com/DwtrGJ6.png)
+- ![Login](https://i.imgur.com/fOyydZC.png)
+- ![Index](https://i.imgur.com/NYdISDB.png)
+- ![Create](https://i.imgur.com/OUNoSqO.png)
+- ![Show](https://i.imgur.com/qmAj3TC.png)
 
-### `npm test`
+## Finished Site
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Future Enhancements
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+I'd like to be to expand this outside the idea of just being for video games and make it more for any idea someone could have! Probably through creating other models and asking the user which one they would like to use when signing up, or maybe letting them switch between models as well.
