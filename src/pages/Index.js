@@ -7,7 +7,7 @@ function Index (props) {
 
     return (
         <>
-        <Link to={`/ideas/create`}><h1>Add and Idea</h1></Link>
+        <Link to={`/ideas/create`}><h1>Add an Idea</h1></Link>
             <div>
                 {ideas.map((idea) => {
                     return (
