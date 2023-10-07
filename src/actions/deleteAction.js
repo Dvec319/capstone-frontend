@@ -12,7 +12,7 @@ const deleteAction = async ({params}) => {
     })
 
     // redirect back to Index
-    return redirect("/ideas/")
+    return redirect("/")
 }
 
 export default deleteAction;

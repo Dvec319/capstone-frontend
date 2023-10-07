@@ -26,7 +26,7 @@ const createAction = async ({request}) => {
     })
 
     // redirect to Index
-    return redirect('/ideas/')
+    return redirect('/')
 }
 
 export default createAction;
