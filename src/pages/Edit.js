@@ -3,7 +3,6 @@ import { Link, Form, useLoaderData } from "react-router-dom";
 function Edit (props) {
 
     const idea = useLoaderData()
-    console.log(idea)
 
     return (
         <>
@@ -22,7 +21,7 @@ function Edit (props) {
                 <input type="submit" value={`Edit ${idea.name}`}/>
             </fieldset>
         </Form>
-        <Link to="/">Back Home</Link>
+        <Link to="/"><button>Back Home</button></Link>
         </>
     )
 }
