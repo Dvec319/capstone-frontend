@@ -19,7 +19,7 @@ function Show(props) {
                 <button>Delete {idea.name}</button>
             </Form>
             <Link to={`/ideas/update/${idea.id}`}><button>Edit {idea.name}</button></Link>
-            <Link to="/ideas/"><button>Back Home</button></Link>
+            <Link to="/"><button>Back Home</button></Link>
         </>
     );
 }

@@ -6,6 +6,7 @@ function Edit (props) {
     console.log(idea)
 
     return (
+        <>
         <Form method="post" action={`/ideas/update/${idea.id}`}>
             <fieldset>
                 <label htmlFor="nameField">Name: </label>
@@ -21,6 +22,8 @@ function Edit (props) {
                 <input type="submit" value={`Edit ${idea.name}`}/>
             </fieldset>
         </Form>
+        <Link to="/">Back Home</Link>
+        </>
     )
 }
 
