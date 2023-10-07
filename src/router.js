@@ -6,6 +6,7 @@ import Show from "./pages/Show";
 import ideasLoader from "./loaders/ideasLoader";
 import ideaLoader from "./loaders/ideaLoader";
 import createAction from "./actions/createAction";
+import deleteAction from "./actions/deleteAction";
 
 const router = createBrowserRouter (createRoutesFromElements(
     <Route path="/" element={<App/>}>
@@ -13,7 +14,7 @@ const router = createBrowserRouter (createRoutesFromElements(
        <Route path="ideas/:id" element={<Show/>} loader={ideaLoader}/>
        <Route path="ideas/create" element={<Create/>} action={createAction} />
        <Route path="update/:id" />
-       <Route path="delete/:id" />
+       <Route path="delete/:id" action={deleteAction}/>
     </Route>
 ))
 
