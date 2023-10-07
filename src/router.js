@@ -12,7 +12,7 @@ import Edit from "./pages/Edit";
 
 const router = createBrowserRouter (createRoutesFromElements(
     <Route path="/" element={<App/>}>
-       <Route path="ideas" element={<Index/>} loader={ideasLoader} />
+       <Route path="" element={<Index/>} loader={ideasLoader} />
        <Route path="ideas/:id" element={<Show/>} loader={ideaLoader} />
        <Route path="ideas/create" element={<Create/>} action={createAction} />
        <Route path="ideas/update/:id" element={<Edit/>} loader={ideaLoader} action={updateAction} />
