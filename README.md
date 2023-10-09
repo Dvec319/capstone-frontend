@@ -9,13 +9,10 @@
 
 ## Description
 
-Welcome to Game Idea Manager! This is going to be my capstone project where a create a website where users can come and store their game ideas! I created this project because I have a passion for video games, whether that be playing or watching them. I have a handful of friends who are in game development as well and thought this would be a neat idea for them. They could come here and write down their ideas and keep the documentation for their engine choice on hand. For the off chance that they forget what engine they wanted to use, or something similar.
+Welcome to Game Idea Manager! This is going to be my capstone project where I create a website where users can come and store their game ideas! I created this project because I have a passion for video games, whether that be playing or watching them. I have a handful of friends who are in game development as well and thought this would be a neat idea for them. They could come here and write down their ideas and keep the documentation for their engine choice on hand. For the off chance that they forget what engine they wanted to use, or something similar.
 
 ## UI Mockup
 
-- ![Landing](https://i.imgur.com/sjuv6ZF.png)
-- ![Signup](https://i.imgur.com/DwtrGJ6.png)
-- ![Login](https://i.imgur.com/fOyydZC.png)
 - ![Index](https://i.imgur.com/NYdISDB.png)
 - ![Create](https://i.imgur.com/OUNoSqO.png)
 - ![Show](https://i.imgur.com/qmAj3TC.png)
@@ -24,4 +21,4 @@ Welcome to Game Idea Manager! This is going to be my capstone project where a cr
 
 ## Future Enhancements
 
-I'd like to be to expand this outside the idea of just being for video games and make it more for any idea someone could have! Probably through creating other models and asking the user which one they would like to use when signing up, or maybe letting them switch between models as well.
+I'd like to be to expand this outside the idea of just being for video games and make it more for any idea someone could have! Probably through creating other models and asking the user which one they would like to use when signing up, or maybe letting them switch between models as well. I'd also like to add user authentication to the site so people can log in and see only their listed ideas.
