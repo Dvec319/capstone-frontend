@@ -8,18 +8,18 @@ function Show(props) {
 
 	return (
         <>
-            <div>
-                <h1>Name: {idea.name}</h1>
-                <h2>Engine: {idea.engine}</h2>
-                <h2>Engine Documentation: {idea.engineDocs}</h2>
-                <h2>Description: {idea.description}</h2>
-                <img src={idea.image} alt={idea.name}/>
+            <div className="showDiv">
+                <h1 className="showH1">Name: {idea.name}</h1>
+                <h2 className="showH2">Engine: {idea.engine}</h2>
+                <h2 className="showH2">Engine Documentation: {idea.engineDocs}</h2>
+                <h2 className="showH2">Description: {idea.description}</h2>
+                <img src={idea.image} alt={idea.name} className="showImage"/>
+                <Form method="delete" action={`/delete/${idea.id}`} className="showForm">
+                <button className="showButton">Delete {idea.name}</button>
+                <Link to={`/ideas/update/${idea.id}`}><button className="showButton">Edit {idea.name}</button></Link>
+                <Link to="/"><button className="showButton">Back Home</button></Link>
+                </Form>
             </div>
-            <Form method="delete" action={`/delete/${idea.id}`}>
-                <button>Delete {idea.name}</button>
-            </Form>
-            <Link to={`/ideas/update/${idea.id}`}><button>Edit {idea.name}</button></Link>
-            <Link to="/"><button>Back Home</button></Link>
         </>
     );
 }

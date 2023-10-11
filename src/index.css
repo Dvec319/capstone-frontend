@@ -15,6 +15,8 @@ code {
     monospace;
 }
 
+/* Header */
+
 .headerDiv {
   text-align: center;
   background: linear-gradient(to bottom, #add8e6 0%, #f1e5ac 100%);
@@ -27,8 +29,11 @@ code {
   font-size: 50px;
 }
 
+/* Index */
+
 .indexH1 {
   text-align: center;
+  font-size: 50px;
 }
 
 .indexA {
@@ -78,6 +83,8 @@ code {
   text-decoration: underline;
 }
 
+/* Create */
+
 .createDiv {
   display: flex;
   flex-direction: column;
@@ -93,6 +100,31 @@ code {
   display: flex;
   flex-direction: column;
 }
+
+/* Show */
+
+.showDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.showH2 {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.showForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.showButton {
+  margin: 10px;
+  height: 50px;
+}
+
 
 @media only screen and (min-width: 768px) {
   .createFieldset {
@@ -120,5 +152,32 @@ code {
   .createHome {
   margin-top: 10px;
   font-size: 30px;
+  }
+
+  .showH1 {
+    font-size: 50px;
+  }
+
+  .showH2 {
+    font-size: 40px;
+  }
+
+  .showImage {
+    aspect-ratio: 1/1;
+  }
+
+}
+
+@media only screen and (max-width: 1024px) {
+  body {
+    height: 100%;
+  }
+
+  .createDiv {
+    height: 100vh
+  }
+
+  .showDiv {
+    height: 100%;
   }
 }
