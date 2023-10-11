@@ -101,6 +101,18 @@ code {
   flex-direction: column;
 }
 
+.createAdd {
+  margin: 10px;
+  height: 25px;
+  font-size: 15px;
+}
+
+.createHome {
+  margin: 10px;
+  height: 25px;
+  font-size: 15px;
+}
+
 /* Edit */
 
 .editDiv {
@@ -117,6 +129,18 @@ code {
 .editFieldset {
   display: flex;
   flex-direction: column;
+}
+
+.editButton {
+  margin: 10px;
+  height: 25px;
+  font-size: 15px;
+}
+
+.editHome {
+  margin: 10px;
+  height: 25px;
+  font-size: 15px;
 }
 
 /* Show */
@@ -165,13 +189,15 @@ code {
 
   .createAdd {
   font-size: 30px;
-  width: 10%;
+  /* width: 10%; */
   align-self: center;
+  height: 40px;
   }
 
   .createHome {
   margin-top: 10px;
   font-size: 30px;
+  height: 40px;
   }
 
   /* Edit */
@@ -192,13 +218,14 @@ code {
 
   .editButton {
     font-size: 30px;
-    width: 15%;
     align-self: center;
+    height: 50px;
   }
 
   .editHome {
     margin-top: 10px;
     font-size: 30px;
+    height: 45px;
   }
 
   /* Show */
@@ -224,10 +251,6 @@ code {
 
   .createDiv {
     height: 100vh
-  }
-
-  .createAdd {
-    width: 30%;
   }
 
   .editDiv {
