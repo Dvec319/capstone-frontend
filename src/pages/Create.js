@@ -10,7 +10,7 @@ function Create(props) {
                     <input type="text" name="name" placeholder="Name" id="nameField" className="createInput" required/>
                     <label htmlFor="engineField" className="createLabel">Engine: </label>
                     <input type="text" name="engine" placeholder="Engine" id="engineField" className="createInput" required/>
-                    <label htmlFor="engineDocsField" className="createLabel">Engine Documentation: </label>
+                    <label htmlFor="engineDocsField" className="createLabel">Engine Docs: </label>
                     <input type="text" name="engineDocs" placeholder="Engine Documentation Link" id="engineDocsField" className="createInput" required/>
                     <label htmlFor="descriptionField" className="createLabel">Description: </label>
                     <input type="text" name="description" placeholder="Description" id="descriptionField" className="createInput" required/>

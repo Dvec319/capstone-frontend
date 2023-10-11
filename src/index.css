@@ -101,6 +101,24 @@ code {
   flex-direction: column;
 }
 
+/* Edit */
+
+.editDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.editH2 {
+  font-size: 40px;
+}
+
+.editFieldset {
+  display: flex;
+  flex-direction: column;
+}
+
 /* Show */
 
 .showDiv {
@@ -123,13 +141,16 @@ code {
 .showButton {
   margin: 10px;
   height: 50px;
+  font-size: 15px;
 }
 
 
 @media only screen and (min-width: 768px) {
+
+  /* Create */
+
   .createFieldset {
     width: 90vw;
-    
   }
 
   .createInput {
@@ -140,7 +161,6 @@ code {
 
   .createLabel {
     font-size: 30px;
-
   }
 
   .createAdd {
@@ -153,6 +173,35 @@ code {
   margin-top: 10px;
   font-size: 30px;
   }
+
+  /* Edit */
+
+  .editFieldset {
+    width: 90vw;
+  }
+
+  .editInput {
+    height: 50px;
+    font-size: larger;
+    margin-bottom: 30px;
+  }
+
+  .editLabel {
+    font-size: 30px;
+  }
+
+  .editButton {
+    font-size: 30px;
+    width: 15%;
+    align-self: center;
+  }
+
+  .editHome {
+    margin-top: 10px;
+    font-size: 30px;
+  }
+
+  /* Show */
 
   .showH1 {
     font-size: 50px;
@@ -175,6 +224,14 @@ code {
 
   .createDiv {
     height: 100vh
+  }
+
+  .createAdd {
+    width: 30%;
+  }
+
+  .editDiv {
+    height: 100vh;
   }
 
   .showDiv {

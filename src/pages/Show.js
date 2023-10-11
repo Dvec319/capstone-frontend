@@ -11,7 +11,7 @@ function Show(props) {
             <div className="showDiv">
                 <h1 className="showH1">Name: {idea.name}</h1>
                 <h2 className="showH2">Engine: {idea.engine}</h2>
-                <h2 className="showH2">Engine Documentation: {idea.engineDocs}</h2>
+                <h2 className="showH2">Engine Docs: {idea.engineDocs}</h2>
                 <h2 className="showH2">Description: {idea.description}</h2>
                 <img src={idea.image} alt={idea.name} className="showImage"/>
                 <Form method="delete" action={`/delete/${idea.id}`} className="showForm">
