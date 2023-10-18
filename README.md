@@ -3,7 +3,7 @@
 ## Game Idea Manager
 
 - **Project By:** Michael Delvecchio
-- [**LINK TO DEPLOYED SITE**]
+- [**LINK TO DEPLOYED SITE**](https://game-idea-manager-frontend.onrender.com/)
 - [**LINK TO BACKEND**](https://github.com/Dvec319/capstone-backend)
 - **List of Technologies used:** React, React Router Dom
 
