@@ -19,6 +19,12 @@ Welcome to Game Idea Manager! This is going to be my capstone project where I cr
 
 ## Finished Site
 
+- ![Index](https://i.imgur.com/PpHMPgM.png)
+- ![Show](https://i.imgur.com/D0rJilR.png)
+- ![Create](https://i.imgur.com/yvPWwnQ.png)
+- ![Update](https://i.imgur.com/NO42mfO.png)
+- ![Mobile](https://i.imgur.com/cNn51mh.png)
+
 ## Future Enhancements
 
 I'd like to be to expand this outside the idea of just being for video games and make it more for any idea someone could have! Probably through creating other models and asking the user which one they would like to use when signing up, or maybe letting them switch between models as well. I'd also like to add user authentication to the site so people can log in and see only their listed ideas.
